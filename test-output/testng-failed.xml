@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testNG.SimpleAnnotationTest">
+        <methods>
+          <include name="my_Itinerary"/>
+          <include name="set_Property"/>
+          <include name="get_Url"/>
+          <include name="browser_Launch"/>
+          <include name="new_Build2"/>
+          <include name="driver_Closed"/>
+          <include name="log_Out"/>
+          <include name="registration_Module"/>
+          <include name="delete_All_Cookies"/>
+        </methods>
+      </class> <!-- com.testNG.SimpleAnnotationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
