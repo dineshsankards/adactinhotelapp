@@ -114,7 +114,7 @@ public class SimpleAnnotationTest {
 //		act.click(findElement9).build().perform();
 
 	}
-	@Test(priority = 1)
+	@Test(priority = 1, invocationCount = 2)
 	private void my_Itinerary() {
 		task1.findElement(By.xpath("//a[text()='Booked Itinerary']")).click();
 		task1.findElement(By.xpath("//input[@name='check_all']")).click();

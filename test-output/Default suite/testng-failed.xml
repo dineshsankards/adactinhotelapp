@@ -10,9 +10,9 @@
           <include name="get_Url"/>
           <include name="browser_Launch"/>
           <include name="new_Build2"/>
+          <include name="registration_Module"/>
           <include name="driver_Closed"/>
           <include name="log_Out"/>
-          <include name="registration_Module"/>
           <include name="delete_All_Cookies"/>
         </methods>
       </class> <!-- com.testNG.SimpleAnnotationTest -->
